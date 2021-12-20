@@ -1,0 +1,612 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+header{
+    background-color: grey;
+}
+.coverpage{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 20vh;
+}
+#logo{
+    width:30%;
+}
+#image{
+    width:70%;
+}
+header h1{
+    background-color: red;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    padding: .2rem;
+    font-size: 1.5rem;
+}
+header h2{
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: .1rem;
+    font-style: italic;
+    font-size: 1rem;
+}
+/* NAV */
+
+/* MAIN */
+
+main{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    flex-grow: 1;
+}
+main h3{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.indexmain h3{
+    font-size: 1rem;
+}
+.indexmain p{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    font-size: .8rem;
+}
+.aboutmain{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.aboutmain p{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+}
+.contactmain p{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+}
+.infogame p{
+    margin-left: 0.1vw;
+}
+main dt{
+    margin-top: 1rem;
+    font-weight: 900;
+}
+main dd{
+    margin-top: 1rem;
+}
+ol li{
+    margin-top: 1rem;
+}
+#mail{
+    margin-left:0.5vw;
+}
+#phoneemail{
+    display: flex;
+}
+main table tr{
+    text-align: center;
+}
+.infogame{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.info1{
+    display: flex;
+    flex-direction: row;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+}
+.phoneemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.infogame div{
+    margin-top: 0.5rem;
+}
+.rulesmain{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+caption{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left:5rem;
+}
+caption p{
+    margin-top: 1rem;
+}
+.punderline{
+    text-decoration: underline;
+}
+.coach{
+    margin-left:3rem;
+    list-style-type: circle;
+}
+.allplay{
+    text-indent: 1em;
+}
+.youngage{
+    list-style-type: lower-alpha;
+    margin-left: 2rem;
+    margin-top:-1rem;
+}
+.youngage li{
+    margin-top: 0;
+}
+.fieldregulations{
+    margin-left: 1rem;
+}
+.commoninterest{
+    text-indent: 1em;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    background-color:silver;
+}
+th, td{
+    padding: 0.1rem;
+    border: 2px solid red;
+    border-collapse: collapse;
+    width: 10vw;
+}
+form{
+    margin: 2rem 2rem 2rem 2rem;
+}
+form h4{
+    margin-top:1rem;
+}
+.dataPlayer{
+    display: flex;
+    flex-direction: column;
+}
+.nameField{
+    width: 50%;
+}
+.nameandlastname{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.lastNameField{
+    width: 50%;
+}
+#firstName{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 35vw;
+}
+#lastName{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 35vw;
+}
+#address{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 81vw;
+}
+.cityandZipCode{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.cityField{
+    width: 50%;
+    flex-grow: 1;
+}
+.zipCodeField{
+    width: 50%;
+    flex-grow: 1;
+}
+#city{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+#zipCode{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+.birthandgenderField{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.birthDateField{
+    width: 50%;
+}
+.genderField{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.genderField label{
+    margin-left: 1vw;
+}
+.gradeField{
+    margin-bottom: 1rem;
+}
+.gradeField label{
+    margin-left: 1rem;
+}
+.schoolsDiv{
+    margin-top:1rem;
+}
+.closesestSchool{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.closesestSchool label{
+    padding: 0.5vh;
+}
+.schools1{
+    display: flex;
+    flex-direction: column;
+}
+.schools2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.positionField{
+    display: flex;
+    flex-direction: row;
+}
+.positionDiv h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.positionDiv label{
+    padding: .3rem;
+}
+.position1{
+    display: flex;
+    flex-direction: column;
+}
+.position2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.sizesdiv{
+    margin-top: 1rem;
+}
+.sizesdiv{
+    margin-top:2rem;
+}
+.sizes{
+    display: flex;
+    flex-direction: row;
+}
+.sizesdiv h3{
+    margin-bottom: 1rem;
+}
+.sizes label{
+    margin-bottom: .5rem;;
+}
+.sizes1{
+    display: flex;
+    flex-direction: column;
+}
+.sizes2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.gradeField{
+    display: flex;
+    flex-direction: row;
+}
+.permissionDiv{
+    margin-top: 1rem;
+}
+.permissionDiv h3{
+    margin-bottom: 1rem;
+}
+.signatureandDate{
+    margin-top: 2rem;
+}
+#signature{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 75vw;
+}
+.dateField{
+    margin-top: 1rem;
+}
+.submitButton{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: lightgrey;
+    border: 3px double black;
+    font-size: 1rem;
+}
+.submitButton:hover{
+    background-color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+}
+.resetButton{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 2rem;
+    background-color: lightgrey;
+    border: 3px double black;
+    font-size: 1rem;
+}
+.resetButton:hover{
+    background-color: whitesmoke;
+    text-shadow: 2px 2px 2px grey;
+}
+fieldset {
+    border:none;
+}
+
+/* FOR MOBILES */
+@media only screen and (max-width: 599px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 80vw;
+    }
+    #nav-menu{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        position: fixed;
+        top: 1vh;
+        right:0;
+        transform: translateX(100%);
+        transition: transform .5s ease-in;
+        margin-top: 12rem;
+        border: 2px solid black;
+        background-color:lightgray;
+        width: 80vw;
+    }
+    nav input{
+        display: none;
+    }
+    
+    #toggle-close{
+        display:none;
+    }
+    #toggle-nav:checked + label #toggle-open{
+        display: none;
+    }
+    #toggle-nav:checked + label #toggle-close{
+        display: block;
+    }
+    label[for="toggle-nav"]{
+        font-size: 4rem;
+        background-color: red;
+        color: black ;
+        height: 10vh;
+        width: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform .5s ease-in;  
+        border: 2px solid black;
+        margin-top: -4vh;
+    }
+    
+    #toggle-nav:checked ~ #nav-menu{
+        transform: translateX(-1vw);
+        
+    }
+      
+    #toggle-nav:checked + label{
+        transform: translateX(-80vw);
+    }
+    
+    #nav-menu > * + *{
+        margin-top: 2rem;
+    }
+    
+    nav a{
+        display: block;
+        color:red;
+        border: 1px solid black;
+        padding: .3rem .7rem .3rem .7rem;
+        text-decoration: underline transparent;
+        background-color: lightgray;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        -webkit-text-stroke: 0.1vh black;
+        background-color: yellow;
+        text-transform: uppercase;
+        cursor: pointer;    
+    }
+    iframe{
+        height: 2vw;
+        width: 5vh;
+    }
+}
+
+/* FOR TABLET */
+
+@media only screen and (min-width: 600px){
+    #logo{
+        width:35%;
+    }
+    #image{
+        width:65%;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header h2{
+        font-size: 1.5rem;
+    }
+    nav input{
+        display: none;
+    }
+    iframe{
+        width: 10vh;
+        height: 10vw;
+    }
+}
+
+/* FOR DESKTOP */
+/* LARGE DEVICES */
+@media only screen and (min-width: 768px){
+    #logo{
+        width:24%;
+    }
+    #image{
+        width:76%;
+    }
+    header h1{
+        text-align: center;
+        letter-spacing: 1vw;
+        text-transform: uppercase;
+        -webkit-text-stroke: 0.2vh grey;
+        font-size:2rem;
+        background-color:firebrick;
+        padding: 0.5rem;
+        border-top: 1vh solid black;
+    }
+    header h2{
+        background-color: grey;
+        -webkit-text-stroke: 0.05vh red;
+        text-align: center;
+        padding: .3rem;
+        border-top: .5vh solid black;
+        border-bottom: .5vh solid black;
+        font-size: 2rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    label[for="toggle-nav"]{
+        display: none;
+    }
+    nav a{
+        font-size: .8rem;
+        cursor: pointer;
+        border: 0.2rem solid black;
+        text-transform: uppercase;
+        background-color: yellow;
+        padding: 0.5rem;
+        color:red;
+        text-decoration: underline transparent;
+        -webkit-text-stroke: 0.1vh black;
+    }
+    nav a:hover{
+        background-color:grey;
+    }
+    iframe{
+        width: 15vh;
+        height: 5vw;
+    }
+}
+
+/* EXTRA LARGE DEVICES */
+@media only screen and (min-width: 1200px){
+    #logo{
+        width:15%;
+    }
+    #image{
+        width:85%;
+    }
+    header h1{
+        font-size: 2.5rem;
+    }
+    header h2{
+        font-size: 2.0rem;
+    }
+    .indexmain h3{
+        font-size: 1.5rem;
+    }
+    .indexmain p{
+        font-size: 1.5rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 1600px){
+    #logo{
+        width:12%;
+    }
+    #image{
+        width:88%;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    header h2{
+        font-size: 2.5rem;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    .indexmain h3{
+        font-size: 2rem;
+    }
+    .indexmain p{
+        font-size: 1.5rem;
+    }
+}
